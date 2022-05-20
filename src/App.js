@@ -1,7 +1,13 @@
 import React from 'react'
-
+import { ListOfCategories } from './components/ListOfCategories'
+import GlobalStyles from './styles/GlobalStyles'
 const App = () => {
-  return <div>App</div>
+  return (
+    <>
+      <GlobalStyles />
+      <ListOfCategories />
+    </>
+  )
 }
 
 export default App
